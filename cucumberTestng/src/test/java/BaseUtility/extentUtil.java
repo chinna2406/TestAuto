@@ -21,7 +21,7 @@ public class extentUtil  extends UtilityBase{
 	//First create extnt report object
 		report=new ExtentReports();
 		ExtentHtmlReporter htmlreport=new ExtentHtmlReporter(fileName);
-		htmlreport.config().setTheme(Theme.STANDARD);
+		htmlreport.config().setTheme(Theme.DARK);
 		htmlreport.config().setDocumentTitle("Cucumber Learn");
 		htmlreport.config().setEncoding("utf-8");
 		htmlreport.config().setReportName("Test Report");
